@@ -1,0 +1,117 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(images/WhatsApp\ Image\ 2020-10-24\ at\ 1.13.31\ PM.jpeg); */
+    background-image: url(images/WhatsApp\ Image\ 2020-10-24\ at\ 1.13.31\ PM.jpeg) ;
+    background-position: center;
+    background-size: cover;
+    background-size: 220%;
+}
+.logo
+{
+    width: 190px;
+    height: 200px;
+    margin-top: 18px;
+}
+.container2{
+    width: 200px;
+}
+.container2 img{
+    width: 25%;
+    height: 25%;
+    display: inline;
+}
+.header-btn
+{
+    text-decoration: none !important;
+    border-radius: 30px;
+    padding: 7px 20px;
+    float: right;
+    margin-top: 15px;
+    color: #fff;
+    background: #107afd !important;
+    font-weight: 600;
+}
+.movie-details
+{
+    margin: 3% 0%;
+}
+.left-box
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:black;
+    margin: 15px 0;
+    padding: 20px;
+    font-size: 35px;
+}
+.left-box p{
+    font-family: cursive;
+    font-size: 25px;
+    color:rgb(0, 0, 0);
+}
+.left-box a
+{
+    text-decoration: none !important;
+    border-radius: 30px;
+    padding: 7px 10px;
+    margin-top: 35px;
+    color: #fff !important;
+    background: #107afd;
+    font-weight: 600;
+    display: inline-block;  
+    margin-right: 10px;
+}
+.download-btn
+{
+    border: 10px solid  #fff !important;
+    background: transparent !important;
+}
+.fa 
+{
+    margin: 0 5px;
+}
+.movie-img
+{
+    height: 350px;
+    box-shadow: -4px 4px 5px 0 #000;
+}
+.series h3
+{
+    color: #fff;
+}
+.series img
+{
+    width: 100%;
+    margin-top: 15px;
+    box-shadow: -4px 4px 5px 0 #000;
+    cursor: pointer;
+    transition: 1s;
+}
+.series img:hover{
+    transform: translateY(-10px);
+}
+.col-md-4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.row2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-img{
+    max-width: 20%;
+    /* margin-left: 15px; */
+}
+.col-img img{
+    width: 90px;
+    height: 150px;
+    margin-left: 15px;
+}
+.row{
+    margin-top: -61px;
+}
